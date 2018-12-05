@@ -73,7 +73,6 @@ D:\TestAutomation\AzureWebAppPOC\azureWebApp\bin\Antlr3.Runtime.pdb
 D:\TestAutomation\AzureWebAppPOC\azureWebApp\bin\System.Diagnostics.DiagnosticSource.xml
 D:\TestAutomation\AzureWebAppPOC\azureWebApp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 D:\TestAutomation\AzureWebAppPOC\azureWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.csprojAssemblyReference.cache
 D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.csproj.CoreCompileInputs.cache
 D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.csproj.CopyComplete
 D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.dll

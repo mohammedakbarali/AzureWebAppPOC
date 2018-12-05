@@ -1,0 +1,2 @@
+D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\obj\Debug\azureWebApp.Tests.csprojAssemblyReference.cache
+D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\obj\Debug\azureWebApp.Tests.csproj.CoreCompileInputs.cache
