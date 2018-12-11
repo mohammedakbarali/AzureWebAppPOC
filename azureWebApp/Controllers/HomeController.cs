@@ -11,6 +11,10 @@ using System.Threading.Tasks;
 
 using azureWebApp.Models;
 
+using Microsoft.Owin.Security;
+using Microsoft.Owin.Security.Cookies;
+using Microsoft.Owin.Security.OpenIdConnect;
+
 namespace azureWebApp.Controllers
 {
     public class HomeController : Controller
@@ -45,12 +49,12 @@ namespace azureWebApp.Controllers
             Response.Redirect($"https://accounts.google.com/o/oauth2/v2/auth?client_id={ClientId}&response_type=code&scope=openid%20email%20profile&redirect_uri={RedirectUrl}&state=abcdef&prompt=consent");
         }
 
-        [HttpGet]
-        public ActionResult SignOut()
-        {
-            Session["user"] = null;
-            return View("Index");
-        }
+        //[HttpGet]
+        //public ActionResult SignOut()
+        //{
+        //    Session["user"] = null;
+        //    return View("Index");
+        //}
 
         /// <summary>  
         /// Listen response from Google API after user authorization  
@@ -105,5 +109,44 @@ namespace azureWebApp.Controllers
             var response = await httpClient.GetAsync(url);
             return JsonConvert.DeserializeObject<UserProfile>(await response.Content.ReadAsStringAsync());
         }
+
+        public ActionResult About()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        /// <summary>
+        /// Send an OpenID Connect sign-in request.
+        /// Alternatively, you can just decorate the SignIn method with the [Authorize] attribute
+        /// </summary>
+        public void SignIn()
+        {
+            if (!Request.IsAuthenticated)
+            {
+                HttpContext.GetOwinContext().Authentication.Challenge(
+                    new AuthenticationProperties { RedirectUri = "/" },
+                    OpenIdConnectAuthenticationDefaults.AuthenticationType);
+            }
+        }
+
+        /// <summary>
+        /// Send an OpenID Connect sign-out request.
+        /// </summary>
+        public void SignOut()
+        {
+            HttpContext.GetOwinContext().Authentication.SignOut(
+                OpenIdConnectAuthenticationDefaults.AuthenticationType,
+                CookieAuthenticationDefaults.AuthenticationType);
+        }
+
     }
 }
