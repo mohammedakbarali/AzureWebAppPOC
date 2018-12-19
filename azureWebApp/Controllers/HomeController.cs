@@ -136,6 +136,7 @@ namespace azureWebApp.Controllers
                     new AuthenticationProperties { RedirectUri = "/" },
                     OpenIdConnectAuthenticationDefaults.AuthenticationType);
             }
+
         }
 
         /// <summary>
