@@ -39,7 +39,7 @@ else
             <tr><td>Name</td><td>@((User.Identity as System.Security.Claims.ClaimsIdentity)?.FindFirst("Name")?.Value)</td></tr>
             <tr><td>IPAddress</td><td>@((User.Identity as System.Security.Claims.ClaimsIdentity)?.FindFirst("ipaddr")?.Value)</td></tr>
         </table>*@
-    <br />
+    <br /
         <h5>Logged in user:</h5>
         <table class="table table-striped table-bordered table-hover table-condensed">
             @foreach (var claim in ((System.Security.Claims.ClaimsIdentity)User.Identity).Claims)

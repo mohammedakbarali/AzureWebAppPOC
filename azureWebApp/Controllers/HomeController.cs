@@ -130,6 +130,7 @@ namespace azureWebApp.Controllers
         /// </summary>
         public void SignIn()
         {
+            //if not already logged in
             if (!Request.IsAuthenticated)
             {
                 HttpContext.GetOwinContext().Authentication.Challenge(
