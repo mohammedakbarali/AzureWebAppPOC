@@ -145,7 +145,11 @@ namespace azureWebApp.Controllers
         /// </summary>
         public void SignOut()
         {
-            HttpContext.GetOwinContext().Authentication.SignOut(
+            //HttpContext.GetOwinContext().Authentication.SignOut(
+            //    OpenIdConnectAuthenticationDefaults.AuthenticationType,
+            //    CookieAuthenticationDefaults.AuthenticationType);
+
+            HttpContext.GetOwinContext().Authentication.SignOut(new AuthenticationProperties { RedirectUri = "https://azurehclkantar.azurewebsites.net/" }, 
                 OpenIdConnectAuthenticationDefaults.AuthenticationType,
                 CookieAuthenticationDefaults.AuthenticationType);
         }
