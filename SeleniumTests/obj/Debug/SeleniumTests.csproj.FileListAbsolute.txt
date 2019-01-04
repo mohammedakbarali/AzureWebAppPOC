@@ -1,5 +1,3 @@
-D:\TestAutomation\AzureWebAppPOC\SeleniumTests\obj\Debug\SeleniumTests.csprojAssemblyReference.cache
-D:\TestAutomation\AzureWebAppPOC\SeleniumTests\obj\Debug\SeleniumTests.csproj.CoreCompileInputs.cache
 D:\TestAutomation\AzureWebAppPOC\SeleniumTests\bin\Debug\NUnit3.TestAdapter.dll
 D:\TestAutomation\AzureWebAppPOC\SeleniumTests\bin\Debug\NUnit3.TestAdapter.pdb
 D:\TestAutomation\AzureWebAppPOC\SeleniumTests\bin\Debug\nunit.engine.dll
@@ -19,6 +17,7 @@ D:\TestAutomation\AzureWebAppPOC\SeleniumTests\bin\Debug\Microsoft.VisualStudio.
 D:\TestAutomation\AzureWebAppPOC\SeleniumTests\bin\Debug\nunit.framework.pdb
 D:\TestAutomation\AzureWebAppPOC\SeleniumTests\bin\Debug\nunit.framework.xml
 D:\TestAutomation\AzureWebAppPOC\SeleniumTests\bin\Debug\WebDriver.xml
+D:\TestAutomation\AzureWebAppPOC\SeleniumTests\obj\Debug\SeleniumTests.csproj.CoreCompileInputs.cache
 D:\TestAutomation\AzureWebAppPOC\SeleniumTests\obj\Debug\SeleniumTests.csproj.CopyComplete
 D:\TestAutomation\AzureWebAppPOC\SeleniumTests\obj\Debug\SeleniumTests.dll
 D:\TestAutomation\AzureWebAppPOC\SeleniumTests\obj\Debug\SeleniumTests.pdb

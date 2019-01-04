@@ -1,5 +1,3 @@
-D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\obj\Debug\azureWebApp.Tests.csprojAssemblyReference.cache
-D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\obj\Debug\azureWebApp.Tests.csproj.CoreCompileInputs.cache
 D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -51,6 +49,8 @@ D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\bin\Debug\System.Web.WebPages
 D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\bin\Debug\System.Web.Optimization.xml
+D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\obj\Debug\azureWebApp.Tests.csprojAssemblyReference.cache
+D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\obj\Debug\azureWebApp.Tests.csproj.CoreCompileInputs.cache
 D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\obj\Debug\azureWebApp.Tests.csproj.CopyComplete
 D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\obj\Debug\azureWebApp.Tests.dll
 D:\TestAutomation\AzureWebAppPOC\azureWebApp.Tests\obj\Debug\azureWebApp.Tests.pdb
