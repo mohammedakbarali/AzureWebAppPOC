@@ -37,6 +37,7 @@ namespace AutomationPOC
         {
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromMinutes(2)); 
         }
+
         public static void ClickOnHomePageLink()
         {
             driver.FindElement(By.XPath("/html/body/div[2]/a")).Click();
@@ -178,7 +179,8 @@ namespace AutomationPOC
         [TearDown]
         public void CleanUp()
         {
-            driver.Quit();
+            if(driver!= null)
+                driver.Quit();
             //if (TestContext.CurrentContext.Result. == NUnit.Framework.Interfaces.TestStatus.Failed)
             //{
             //    testFail++;
