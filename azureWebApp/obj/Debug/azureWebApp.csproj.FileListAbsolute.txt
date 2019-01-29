@@ -98,4 +98,3 @@ D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.csproj.CoreCo
 D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.csproj.CopyComplete
 D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.dll
 D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.pdb
-D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.csprojAssemblyReference.cache
