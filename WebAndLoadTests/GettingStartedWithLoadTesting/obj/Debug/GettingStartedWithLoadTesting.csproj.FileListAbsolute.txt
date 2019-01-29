@@ -1,0 +1,10 @@
+D:\TestAutomation\VisualStudioLoadTesting\C#\GettingStartedWithLoadTesting\bin\Debug\SampleWebTest.webtest
+D:\TestAutomation\VisualStudioLoadTesting\C#\GettingStartedWithLoadTesting\bin\Debug\SampleLoadTest.loadtest
+D:\TestAutomation\VisualStudioLoadTesting\C#\GettingStartedWithLoadTesting\bin\Debug\GettingStartedWithLoadTesting.dll
+D:\TestAutomation\VisualStudioLoadTesting\C#\GettingStartedWithLoadTesting\bin\Debug\GettingStartedWithLoadTesting.pdb
+D:\TestAutomation\VisualStudioLoadTesting\C#\GettingStartedWithLoadTesting\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+D:\TestAutomation\VisualStudioLoadTesting\C#\GettingStartedWithLoadTesting\obj\Debug\GettingStartedWithLoadTesting.csprojAssemblyReference.cache
+D:\TestAutomation\VisualStudioLoadTesting\C#\GettingStartedWithLoadTesting\obj\Debug\GettingStartedWithLoadTesting.csproj.CoreCompileInputs.cache
+D:\TestAutomation\VisualStudioLoadTesting\C#\GettingStartedWithLoadTesting\obj\Debug\GettingStartedWithLoadTesting.csproj.CopyComplete
+D:\TestAutomation\VisualStudioLoadTesting\C#\GettingStartedWithLoadTesting\obj\Debug\GettingStartedWithLoadTesting.dll
+D:\TestAutomation\VisualStudioLoadTesting\C#\GettingStartedWithLoadTesting\obj\Debug\GettingStartedWithLoadTesting.pdb
