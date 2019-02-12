@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Release\Package\PackageTmp" />
-  <setAcl path="D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\Users\singarapud\Downloads\AzureWebAppPOC\AzureWebAppPOC\azureWebApp\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\singarapud\Downloads\AzureWebAppPOC\AzureWebAppPOC\azureWebApp\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\singarapud\Downloads\AzureWebAppPOC\AzureWebAppPOC\azureWebApp\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>
