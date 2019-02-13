@@ -18,9 +18,6 @@ namespace AutomationPOC
     {
         
         string executionStartTime = DateTime.Now.ToString("ddmmyyyyhhmmsstt");
-        
-        static int testPass = 0;
-        static int testFail = 0;
 
         public static IWebDriver driver = null;
         [SetUp]

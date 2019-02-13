@@ -183,6 +183,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\azureautomationpoc - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\AzureAutomationPOCDev - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\AzureAutomationPOCQC - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\azurecicdpoc - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\azurehclkantar - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\azureWebApp04122018 - Web Deploy.pubxml" />
