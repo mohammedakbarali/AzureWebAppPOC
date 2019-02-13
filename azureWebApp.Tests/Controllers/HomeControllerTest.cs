@@ -48,7 +48,7 @@ namespace azureWebApp.Tests.Controllers
             ViewResult result = controller.Contact() as ViewResult;
 
             // Assert
-            Assert.IsNotNull(result);
+            Assert.AreEqual("Your contact page.", result.ViewBag.Message);
         }
     }
 }
