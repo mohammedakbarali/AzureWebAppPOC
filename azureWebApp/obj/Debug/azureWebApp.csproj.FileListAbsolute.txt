@@ -198,3 +198,4 @@ C:\Users\singarapud\Downloads\AzureWebAppPOC\AzureWebAppPOC\azureWebApp\obj\Debu
 C:\Users\singarapud\Downloads\AzureWebAppPOC\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.csproj.CopyComplete
 C:\Users\singarapud\Downloads\AzureWebAppPOC\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.dll
 C:\Users\singarapud\Downloads\AzureWebAppPOC\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.pdb
+D:\TestAutomation\AzureWebAppPOC\azureWebApp\obj\Debug\azureWebApp.csprojAssemblyReference.cache
