@@ -149,7 +149,7 @@ namespace azureWebApp.Controllers
             //    OpenIdConnectAuthenticationDefaults.AuthenticationType,
             //    CookieAuthenticationDefaults.AuthenticationType);
 
-            HttpContext.GetOwinContext().Authentication.SignOut(new AuthenticationProperties { RedirectUri = "https://azureautomationpoc.azurewebsites.net/" }, 
+            HttpContext.GetOwinContext().Authentication.SignOut(new AuthenticationProperties { RedirectUri = ConfigurationManager.AppSettings.Get("SignOutUrl").ToString()}, 
                 OpenIdConnectAuthenticationDefaults.AuthenticationType,
                 CookieAuthenticationDefaults.AuthenticationType);
         }
