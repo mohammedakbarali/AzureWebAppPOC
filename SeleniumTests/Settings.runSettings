@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <!-- Configurations that affect the Test Framework -->
+
+  <!-- Configurations for data collectors -->
+
+  <!-- Parameters used by tests at runtime -->
+  <TestRunParameters>
+    <Parameter name="webAppUrl" value="https://azureautomationpocqc.azurewebsites.net/" />
+    <Parameter name="webAppUserName" value="azureautomationpoc@gmail.com" />
+    <Parameter name="webAppPassword" value="Azure123" />
+    <Parameter name="webAppInvalidUserName" value="azureautomationpoc@g.com"/>
+    <Parameter name ="webAppInvalidPassword" value="Lucky"/>
+  </TestRunParameters>
+
+  <!-- Adapter Specific sections -->
+
+</RunSettings>
