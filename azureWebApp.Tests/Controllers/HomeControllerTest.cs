@@ -36,8 +36,7 @@ namespace azureWebApp.Tests.Controllers
 
             // Assert
             Assert.AreEqual("Your application description page.", result.ViewBag.Message);
-            
-            Console.WriteLine("Passed");
+           
         }
 
         [TestMethod]
